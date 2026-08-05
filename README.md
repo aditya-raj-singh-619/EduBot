@@ -14,7 +14,7 @@ Generation (RAG) — with zero external API cost.
 - Data: 500+ PDF/CSV institutional documents
 
 ## Architecture
-Ingestion → Preprocessing → Embedding (FAISS) → Retrieval → LLM Response
+Ingestion → Preprocessing → Embedding (chromaDB) → Retrieval → LLM Response
 
 ## Results (So Far)
 - ~70% better retrieval accuracy vs keyword search

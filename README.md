@@ -25,6 +25,6 @@ Ingestion → Preprocessing → Embedding (chromaDB) → Retrieval → LLM Respo
 | File | Purpose |
 |------|---------|
 | ingestion_pipeline.py | Document loading & preprocessing |
-| _retrieval_pipeline.py | FAISS vector search |
+| _retrieval_pipeline.py | ChromaDB vector search |
 | _generate_ans.py | LLM answer generation |
 | _history.py | Conversation history management |
